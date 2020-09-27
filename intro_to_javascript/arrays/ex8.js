@@ -1,11 +1,12 @@
-function oddLength(Arr) {
+function oddLength (Arr) {
   let strLength = arr.reduce((accumulator, element) => {
-    return element.length;
+    return element.length
   }).reduce((accumulator, element) => {
-    return element % 2 === 1;
+    return element % 2 === 1
   })
-  return strLength;
+
+  return strLength
 }
 
-let arr = ['a', 'abcd', 'abcde', 'abc', 'ab'];
-console.log(oddLength(arr));
+let arr = ['a', 'abcd', 'abcde', 'abc', 'ab']
+console.log(oddLength(arr))
