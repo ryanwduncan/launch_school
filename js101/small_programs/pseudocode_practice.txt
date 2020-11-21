@@ -1,0 +1,38 @@
+// a function that returns the sum of two numbers
+
+START
+
+# Given two values we will return the sum of two numbers
+
+SET Function named sumNumbers
+SET two arguments to retrieve two number values from the user
+READ the two numerical values assigned to the arguments and sum them
+SET the return to be the sum of the two numerical value
+
+GET Assign the first number provided to the argument number1
+GET Assign the second number provided to the argument number2
+
+PRINT the function with the two given values
+
+END
+
+/* a function that takes an array of strings, and returns a string that is all those strings concatenated together */
+
+START
+
+SET create a list called 'list' with several strings as its values
+
+SET function that takes an array as an argument
+READ Iterate over the array assigned to the argument and concatenate each values
+
+PRINT call function with list passed as argument
+
+/* a function that takes an array of integers, and returns a new array with every other element */
+
+START
+
+SET create an array of integers called 'integers'
+
+SET function and takes an array as input and outputs an array with of every other element of the original
+
+PRINT return value of the function passed the array 'integers'
