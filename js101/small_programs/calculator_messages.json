@@ -1,0 +1,52 @@
+{"en": {
+  "welcome" : "Welcome to calculator!",
+  "firstNumber" : "What is your first number?",
+  "secondNumber" : "What is your second number?",
+  "invalid" : "Hmm...that doesn't look like a valid number.",
+  "whichOp" : "Which operation would you like to perform?\n1) Add 2) Subtract 3) Multiply 4) Divide",
+  "chooseOp" : "Must choose 1, 2, 3 or 4.",
+  "finalOutput" : "The output is: ${output}",
+  "restart" : "Let's try this again, shall we? (y/n)",
+  "yesOrNo" : "Please choose either 'Yes' or 'No'",
+  "goodbye" : "Goodbye!"
+},
+
+"es": {
+  "welcome" : "!Bienvenidos a calculador!",
+  "firstNumber" : "¿Cual es tu primer numero?",
+  "secondNumber" : "¿Cual es tu segundo numero?",
+  "invalid" : "Hmm ... eso no parece un número válido.",
+  "whichOp" : "¿Qué operación te gustaría realizar? \n1) Sumar 2) Restar 3) Multiplicar 4) Dividir",
+  "chooseOp" : "Debe elegir 1, 2, 3 o 4.",
+  "finalOutput" : "La salida es:",
+  "restart" : "Intentemos esto de nuevo, ¿de acuerdo? (s / n)",
+  "yesOrNo" : "Elija 'Sí' o 'No'",
+  "goodbye" : "!Adios!"
+},
+
+"fr": {
+  "welcome" : "Bienvenue dans la calculatrice!",
+  "firstNumber" : "Quel est votre premier numéro?",
+  "secondNumber" : "Quel est votre deuxième numéro?",
+  "invalid" : "Hmm ... ça ne ressemble pas à un nombre valide.",
+  "whichOp" : "Quelle opération souhaitez-vous effectuer? \n1) Ajouter 2) Soustraire 3) Multiplier 4) Diviser",
+  "chooseOp" : "Doit choisir 1, 2, 3 ou 4.",
+  "finalOutput" : "La sortie est:",
+  "restart" : "Essayons à nouveau, d'accord? (o / n)",
+  "yesOrNo" : "Veuillez choisir 'Oui' ou 'Non'",
+  "goodbye" : "Au revoir!"
+},
+
+"de": {
+  "Willkommen": "Willkommen im Taschenrechner!",
+   "firstNumber": "Was ist Ihre erste Nummer?",
+   "secondNumber": "Was ist Ihre zweite Nummer?",
+   "invalid": "Hmm ... das sieht nicht nach einer gültigen Nummer aus.",
+   "whichOp": "Welche Operation möchten Sie ausführen? \n1) Addieren 2) Subtrahieren 3) Multiplizieren 4) Teilen",
+   "selectOp": "Muss 1, 2, 3 oder 4 wählen.",
+   "finalOutput": "Die Ausgabe ist:",
+   "restart": "Versuchen wir es noch einmal, okay? (j / n)",
+   "yesOrNo": "Bitte wählen Sie 'Ja' oder 'Nein'",
+   "goodbye": "Auf Wiedersehen!"
+}
+}
