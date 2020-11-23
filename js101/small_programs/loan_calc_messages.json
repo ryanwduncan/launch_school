@@ -1,0 +1,7 @@
+{
+"loanAmount": "Please enter the total loan amount in USD (e.g., $3500): ",
+"apr" : "Please enter the Annual Percentage Rate (for example, '5.3%' or '5.3'): ",
+"duration" : "Please enter the loan duration (in months): ",
+"monthlyPayment" : "Your monthly payment is: $(monthlyPayment)",
+"invalid" : "Entered invalid number. Please enter a number."
+}

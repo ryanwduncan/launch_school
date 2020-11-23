@@ -1,4 +1,4 @@
-const READLINE = require('READLINE-sync');
+const READLINE = require('readline-sync');
 const MSGS = require('./calculator_messages.json');
 const LANGUAGE = 'en';
 
