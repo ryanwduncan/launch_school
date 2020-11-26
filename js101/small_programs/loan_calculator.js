@@ -39,8 +39,8 @@ function getLoanAmount(loan) {
 
 // requests and stores the user's monthly interest rate
 prompt('apr');
-let arpString = READLINE.question();
-let monthlyInterest = getMonthlyPayments(arpString);
+let aprString = READLINE.question();
+let monthlyInterest = getMonthlyPayments(aprString);
 
 // requests and stores the user's loan duration in months
 prompt('duration');
