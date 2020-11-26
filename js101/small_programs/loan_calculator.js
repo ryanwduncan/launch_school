@@ -41,7 +41,7 @@ function getLoanAmount(loan) {
 prompt('apr');
 let arpString = READLINE.question();
 let monthlyInterest = getMonthlyPayments(arpString);
-debugger;
+
 // requests and stores the user's loan duration in months
 prompt('duration');
 let loanDuration = READLINE.question();
@@ -50,16 +50,16 @@ while (invalidNumber(loanDuration)) {
   prompt('invalid');
   loanDuration = Number(READLINE.question());
 }
-debugger;
+
 //requests and stores the user's loan amount in USD
 prompt('loanAmount');
 let loanAmount = READLINE.question();
 loanAmount = getLoanAmount(loanAmount);
-debugger;
+
 // calculates the user's monthly payment amount
 let monthlyPayment = (loanAmount * (monthlyInterest /
   (1 - Math.pow((1 + monthlyInterest),
     (-loanDuration))))).toFixed(2);
-debugger;
+
 // NOTE: figure out how to interpolate json string
 console.log(`=> Your monthly payment is $${monthlyPayment}`);
